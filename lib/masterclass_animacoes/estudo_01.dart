@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Estudo01 extends StatefulWidget {
-  const Estudo01({Key? key}) : super(key: key);
+class AnimacoesEstudo01 extends StatefulWidget {
+  const AnimacoesEstudo01({Key? key}) : super(key: key);
 
   @override
-  _Estudo01State createState() => _Estudo01State();
+  _AnimacoesEstudo01State createState() => _AnimacoesEstudo01State();
 }
 
-class _Estudo01State extends State<Estudo01> {
+class _AnimacoesEstudo01State extends State<AnimacoesEstudo01> {
   bool taped = false;
 
   @override
@@ -21,7 +21,10 @@ class _Estudo01State extends State<Estudo01> {
         children: [
           Text(
             'Toque no ${taped ? 'circulo' : 'quadrado'} para mudar o estado',
-            style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            style: const TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
           ),
           const SizedBox(
             height: 20,
@@ -29,9 +32,11 @@ class _Estudo01State extends State<Estudo01> {
           Center(
             child: GestureDetector(
               onTap: () {
-                setState(() {
-                  taped = !taped;
-                });
+                setState(
+                  () {
+                    taped = !taped;
+                  },
+                );
               },
               child: AnimatedContainer(
                 decoration: BoxDecoration(
