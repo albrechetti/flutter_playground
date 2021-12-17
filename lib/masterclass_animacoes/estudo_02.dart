@@ -8,7 +8,6 @@ class AnimacoesEstudo02 extends StatefulWidget {
   @override
   _AnimacoesEstudo02State createState() => _AnimacoesEstudo02State();
 }
-
 class _AnimacoesEstudo02State extends State<AnimacoesEstudo02> {
   double _width = 50;
   double _height = 50;
