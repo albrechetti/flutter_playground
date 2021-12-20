@@ -9,7 +9,7 @@ import 'masterclass_animacoes/estudo_02.dart';
 void main() {
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Exercicio02(), 
+    home: AnimacoesEstudo02(),
     //TinderLogin(),
   ));
 }
