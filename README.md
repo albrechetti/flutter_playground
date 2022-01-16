@@ -1,5 +1,5 @@
-# Flutter Playground Masterclass Fluterrando
+# Flutter Playground 
 
-Repositório com exercicios e estudos feitos durante a Masterclass da Flutterando.
+Estudos aleatórios 
 
 
